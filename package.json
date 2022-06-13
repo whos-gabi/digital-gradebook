@@ -1,0 +1,26 @@
+{
+  "name": "digital-gradebook",
+  "version": "1.0.0",
+  "description": "A Usefull Grade Book for all students",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whos-gabi/digital-gradebook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whos-gabi/digital-gradebook/issues"
+  },
+  "homepage": "https://github.com/whos-gabi/digital-gradebook#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
