@@ -5,27 +5,27 @@ const PORT = 8080; // Port on which to run the server
 
 // Handle get requests to /
 app.get("/", (req, res) => {
-  res.sendFile("./view/landing.html");
+  res.sendFile(__dirname + "/views/landing.html");
 });
 
 // Handle get requests to /home
-app.get("/", (req, res) => {
-  res.sendFile("./view/home.html");
+app.get("/home", (req, res) => {
+  res.sendFile(__dirname + "/views/home.html");
 });
 
 // Handle get requests to /student
-app.get("/", (req, res) => {
-  res.sendFile("./view/student.html");
+app.get("/student", (req, res) => {
+  res.sendFile(__dirname + "/views/student.html");
 });
 
 // Handle get requests to /teacher
-app.get("/", (req, res) => {
-  res.sendFile("./view/teacher.html");
+app.get("/teacher", (req, res) => {
+  res.sendFile(__dirname + "/views/teacher.html");
 });
 
 // Handle get requests to /admin
-app.get("/", (req, res) => {
-  res.sendFile("./view/admin.html");
+app.get("/admin", (req, res) => {
+  res.sendFile(__dirname + "/views/admin.html");
 });
 
 // Server starts listening to the port
