@@ -36,4 +36,5 @@ A Useful Grade Book for all students
 1. Setup server folder structure
 2. Setup views and integrate wirh API
 3. Connecting and manipulating data on MongoDB
+4. Redesign pages with Bootstrap CDN
    ...
