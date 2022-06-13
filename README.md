@@ -11,12 +11,13 @@ A Useful Grade Book for all students
 
 #### Install and Run:
 
-1.  Clone the repository
-2.  `cd` into that folder
-3.  Run `npm install` (Installs all dependencies listed in package.json)
-4.  After its finished, run `npm start`
-5.  After getting the message `Listening on port: 8080`, visit [localhost:8080](localhost:8080), you should get a JSON object in response
-6.  Edit and save changes to file, the server automatically restarts
+1. Make sure you have NodeJS installed on your system
+1. Clone the repository
+1. `cd` into that folder
+1. Run `npm install` (Installs all dependencies listed in package.json)
+1. After its finished, run `npm start`
+1. After getting the message `Listening on port: 8080`, visit [localhost:8080](localhost:8080), you should get a JSON object in response
+1. Edit and save changes to file, the server automatically restarts
 
 #### Dependencies:
 
@@ -29,3 +30,10 @@ A Useful Grade Book for all students
 #### Scripts:
 
 - `start`: Accessed using `npm start`. Uses `nodemon` to run `index.js`, which is re-run on all file changes
+
+#### TO DO
+
+1. Setup server folder structure
+2. Setup views and integrate wirh API
+3. Connecting and manipulating data on MongoDB
+   ...
